@@ -213,6 +213,7 @@ country_event = {
 				sarda_region = { destroy_province_permanently = yes }
 				epednan_expanse_region = { destroy_province_permanently = yes }
 				# South Aelantir
+				west_effelai_region = { destroy_province_permanently = yes }
 				yodhanchend_region = { destroy_province_permanently = yes }
 				southern_coast_region = { destroy_province_permanently = yes }
 				kalavend_region = { destroy_province_permanently = yes }
