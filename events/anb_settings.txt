@@ -168,14 +168,70 @@ country_event = {
 				oceania = { destroy_province_permanently = yes }
 			}
 			if = { limit = { has_global_flag = delete_regions_submod }
-				oceania = { destroy_province_permanently = yes }
-				gozengun_superregion = { destroy_province_permanently = yes }
-				east_serpentspine_superregion = { destroy_province_permanently = yes }
-				yanshen_superregion = { destroy_province_permanently = yes }
-				vimdatrong_superregion = { destroy_province_permanently = yes }
-				forbidden_lands_superregion = { destroy_province_permanently = yes }
-				kheionai_superregion = { destroy_province_permanently = yes }
-				rahen_superregion = { destroy_province_permanently = yes }
+				# Deepwoods
+				deepwoods_superregion = { destroy_province_permanently = yes }
+				deepwoods_portal_superregion = { destroy_province_permanently = yes }
+				# West Serpentspine
+ 				west_dwarovar_region = { destroy_province_permanently = yes }
+ 				serpents_vale_region = { destroy_province_permanently = yes }
+				northern_pass_region = { destroy_province_permanently = yes }
+				serpentreach_region = { destroy_province_permanently = yes }
+				# Cannor
+				gerudia_superregion = { destroy_province_permanently = yes }
+				western_cannor_superregion = { destroy_province_permanently = yes }
+				escann_superregion = { destroy_province_permanently = yes }
+				# Bulwar
+				bahar_region = { destroy_province_permanently = yes }
+				# Sarhal
+				north_salahad_superregion = { destroy_province_permanently = yes }
+				fangaula_superregion = { destroy_province_permanently = yes }
+				tanib_dajek_superregion = { destroy_province_permanently = yes }
+				taneyas_superregion = { destroy_province_permanently = yes }
+				djinnakah_superregion = { destroy_province_permanently = yes }
+				shadow_swamp_region = { destroy_province_permanently = yes }
+				ishyamtumu_region = { destroy_province_permanently = yes }
+				gol_region = { destroy_province_permanently = yes }
+				kirksanlashan_area = { destroy_province_permanently = yes }
+				kidfan_area = { destroy_province_permanently = yes }
+				kadamuu_area = { destroy_province_permanently = yes }
+				saposon_area = { destroy_province_permanently = yes }
+				wezingoni_area = { destroy_province_permanently = yes }
+				yezelshaff_area = { destroy_province_permanently = yes }
+				iburengampakad_area = { destroy_province_permanently = yes }
+				mojakilima_area = { destroy_province_permanently = yes }
+				hejukazira_area = { destroy_province_permanently = yes }
+				umsozandin_area = { destroy_province_permanently = yes }
+				chunsikazira_area = { destroy_province_permanently = yes }
+				kahuwabonde_area = { destroy_province_permanently = yes }
+				5558 = { destroy_province_permanently = yes }
+				# North Aelantir
+				broken_lands_superregion = { destroy_province_permanently = yes }
+				ruin_proper_superregion = { destroy_province_permanently = yes }
+				rzenta_region = { destroy_province_permanently = yes }
+				dolindha_region = { destroy_province_permanently = yes }
+				veykoda_region = { destroy_province_permanently = yes }
+				sarda_region = { destroy_province_permanently = yes }
+				epednan_expanse_region = { destroy_province_permanently = yes }
+				# South Aelantir
+				yodhanchend_region = { destroy_province_permanently = yes }
+				southern_coast_region = { destroy_province_permanently = yes }
+				kalavend_region = { destroy_province_permanently = yes }
+				ethanamara_area = { destroy_province_permanently = yes }
+				urvand_area = { destroy_province_permanently = yes }
+				enlarmai_area = { destroy_province_permanently = yes }
+				ahartadyam_area = { destroy_province_permanently = yes }
+				leechdens_region = { destroy_province_permanently = yes }
+				south_effelai_region = { destroy_province_permanently = yes }
+				east_effelai_region = { destroy_province_permanently = yes }
+				dry_coast_region = { destroy_province_permanently = yes }
+				severed_coast_region = { destroy_province_permanently = yes }
+				turtleback_isle_region = { destroy_province_permanently = yes }
+				soruin_region = { destroy_province_permanently = yes }
+				# Insyaa
+				hinuilands_superregion = { destroy_province_permanently = yes }
+				charkuchar_superregion = { destroy_province_permanently = yes }
+				great_plateau_region = { destroy_province_permanently = yes }
+				insyaan_mushroom_forest_region = { destroy_province_permanently = yes }
 			}
 		}
 		set_global_flag = settings_done
