@@ -1,6 +1,8 @@
 # Changelog
 
 ## Season 14 (main, in progress)
+- Zabutodask - nerfs with goal to remove early power
+- One Xia - ideas slightly nerfed (ica / warscore vs other religions)
 - Azkare nerfs: many sunrise convocation modifiers significantly reduced, disc removed and PWSC nerfed from ideas
 - Season 14-specific province/vassal setup adjustments: transferred provinces from Azjakuma to V21, Sareyand to F83, and Bianfang to Y11/Z59/Z58 (with cores removed from the former owners); freed F35, F41, R83, F24, F40, F43, F44, J35, J36, and J37 from vassalage to Sareyand, Bianfang, Irrliam, and Maghargma respectively.
 - reverted corvuria/gnomish hierarchy cosmetic changes
