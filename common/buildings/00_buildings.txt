@@ -2017,7 +2017,7 @@ university = {
 	cost = 300
 	time = 12
 	modifier = {
-		local_development_cost = -0.20
+		local_development_cost = -0.15 # submod
 		allowed_num_of_buildings = 1
 	}
 
@@ -4678,10 +4678,10 @@ soldier_households = {
 	}
 
 	modifier = {
-		local_manpower = 0.5
+		local_manpower = 0.4 # submod
 	}
 	bonus_modifier = {
-		local_manpower = 0.5
+		local_manpower = 0.4 # submod
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
