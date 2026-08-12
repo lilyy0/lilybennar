@@ -1,6 +1,7 @@
 # Changelog
 
 ## Season 14 (main, in progress)
+- added back passive demonsterization effect
 - Zabutodask - nerfs with goal to remove early power
 - One Xia - ideas slightly nerfed (ica / warscore vs other religions)
 - Azkare nerfs: many sunrise convocation modifiers significantly reduced, disc removed and PWSC nerfed from ideas
