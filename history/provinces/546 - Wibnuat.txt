@@ -1,8 +1,8 @@
 
 # No previous file for East Berar
 
-owner = U01
-controller = U01
+owner = U05
+controller = U05
 add_core = L28
 add_core = U01
 culture = korosheshi

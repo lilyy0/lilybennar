@@ -1,8 +1,8 @@
 
 #465 - Nogay
 
-owner = L28
-controller = L28
+owner = U05
+controller = U05
 add_core = U01
 add_core = L28
 culture = korosheshi

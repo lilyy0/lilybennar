@@ -1,5 +1,6 @@
-owner = S95
-controller = S95
+owner = F69
+controller = F69
+add_core = F69
 add_core = S95
 culture = ndurubu
 religion = fangaulan_pantheon

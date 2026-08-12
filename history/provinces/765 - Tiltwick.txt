@@ -1,8 +1,8 @@
 
 # No previous file for Minas Gerais
-#owner = B07
-#controller = B07
-#add_core = B07
+owner = B07
+controller = B07
+add_core = B07
 culture = east_damerian
 religion = regent_court
 
