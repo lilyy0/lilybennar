@@ -1,6 +1,7 @@
 # Changelog
 
 ## Season 14 (main, in progress)
+- rebalanced trade flow for Haless-focused season 
 - Magic modifier rebalance pass: 
     - Mage tower gov cap privileges changed from flat -10 governing cost to percent-based (-10%/-15%)
     - Meteor Swarm's local modifier no longer nukes forts but makes assaults easier
