@@ -1,6 +1,16 @@
 # Changelog
 
 ## Season 14 (main, in progress)
+- Magic modifier rebalance pass: 
+    - Mage tower gov cap privileges changed from flat -10 governing cost to percent-based (-10%/-15%)
+    - Meteor Swarm's local modifier no longer nukes forts but makes assaults easier
+    - Illusion buffs:
+    - Invisibility's spy offence bonus doubled (0.25 → 0.5)
+    - Fear and Loathing sabotage now also gives -10% reinforce speed
+    - Assimilation Program now also gives -10% dev cost in primary culture
+    - Shadows in the Night sabotage swapped a stacking siege-ability bonus for -25% defensiveness
+    - Lead the Crowds reworked from a warscore-cost/overextension spell into a general stability spell (spy defence, unrest, manpower, reinforce speed, morale recovery) and no longer requires 90% overextension to cast
+    - Lowered `min_size` on elemental mercenary companies (10 → 7)
 - added back passive demonsterization effect
 - Zabutodask - nerfs with goal to remove early power
 - One Xia - ideas slightly nerfed (ica / warscore vs other religions)
