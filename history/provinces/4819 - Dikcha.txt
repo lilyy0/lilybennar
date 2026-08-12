@@ -1,7 +1,7 @@
-owner = Y09
-controller = Y09
-add_core = Y09
+owner = Y11 # submod
+controller = Y11 # submod
 add_core = Y11
+# submod: removed add_core = Y09
 culture = szitu
 religion = accretive_path
 

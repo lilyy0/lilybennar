@@ -1,24 +1,7 @@
 
-vassal = {
-	first = I90
-	second = J35
-	start_date = 1438.1.1
-	end_date = 1500.1.1
-}
-
-vassal = {
-	first = I90
-	second = J36
-	start_date = 1438.1.1
-	end_date = 1500.1.1
-}
-
-vassal = {
-	first = I90
-	second = J37
-	start_date = 1438.1.1
-	end_date = 1500.1.1
-}
+# submod: Maghargma - J35 vassal removed, freed from vassalage
+# submod: Maghargma - J36 vassal removed, freed from vassalage
+# submod: Maghargma - J37 vassal removed, freed from vassalage
 
 dependency = {
 	subject_type = tributary_state_anb
