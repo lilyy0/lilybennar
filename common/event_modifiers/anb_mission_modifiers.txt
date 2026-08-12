@@ -17698,16 +17698,16 @@ azkare_chengrong_bonus_small = {
 	global_trade_power = 0.05
 }
 azkare_risbeko_bonus_massive = {
-	siege_ability = 0.15
+	siege_ability = 0.10 # submod: nerf B tier -1/3
 }
 azkare_risbeko_bonus_big = {
-	siege_ability = 0.10
+	siege_ability = 0.067 # submod: nerf B tier -1/3
 }
 azkare_risbeko_bonus_medium = {
-	siege_ability = 0.075
+	siege_ability = 0.05 # submod: nerf B tier -1/3
 }
 azkare_risbeko_bonus_small = {
-	siege_ability = 0.05
+	siege_ability = 0.033 # submod: nerf B tier -1/3
 }
 azkare_biengdi_bonus_massive = {
 	fort_maintenance_modifier = -0.25
@@ -17722,28 +17722,28 @@ azkare_biengdi_bonus_small = {
 	fort_maintenance_modifier = -0.05
 }
 azkare_teplin_bonus_massive = {
-	mercenary_manpower = 0.50
+	mercenary_manpower = 0.33 # submod: nerf B tier -1/3
 }
 azkare_teplin_bonus_big = {
-	mercenary_manpower = 0.25
+	mercenary_manpower = 0.17 # submod: nerf B tier -1/3
 }
 azkare_teplin_bonus_medium = {
-	mercenary_manpower = 0.15
+	mercenary_manpower = 0.10 # submod: nerf B tier -1/3
 }
 azkare_teplin_bonus_small = {
-	mercenary_manpower = 0.10
+	mercenary_manpower = 0.067 # submod: nerf B tier -1/3
 }
 azkare_tamran_bonus_massive = {
-	artillery_power = 0.15
+	artillery_power = 0.10 # submod: nerf artillery combat ability -1/3
 }
 azkare_tamran_bonus_big = {
-	artillery_power = 0.10
+	artillery_power = 0.0667 # submod: nerf artillery combat ability -1/3
 }
 azkare_tamran_bonus_medium = {
-	artillery_power = 0.075
+	artillery_power = 0.05 # submod: nerf artillery combat ability -1/3
 }
 azkare_tamran_bonus_small = {
-	artillery_power = 0.05
+	artillery_power = 0.0333 # submod: nerf artillery combat ability -1/3
 }
 azkare_gon_bonus_massive = {
 	navy_tradition = 1.5
@@ -17758,40 +17758,40 @@ azkare_gon_bonus_small = {
 	navy_tradition = 0.25
 }
 azkare_phonan_bonus_massive = {
-	cavalry_cost = -0.20
+	cavalry_cost = -0.15 # submod: nerf cav cost -1/4
 }
 azkare_phonan_bonus_big = {
-	cavalry_cost = -0.15
+	cavalry_cost = -0.11 # submod: nerf cav cost -1/4
 }
 azkare_phonan_bonus_medium = {
-	cavalry_cost = -0.10
+	cavalry_cost = -0.075 # submod: nerf cav cost -1/4
 }
 azkare_phonan_bonus_small = {
-	cavalry_cost = -0.05
+	cavalry_cost = -0.0375 # submod: nerf cav cost -1/4
 }
 azkare_bokai_bonus_massive = {
-	global_manpower_modifier = 0.33
+	global_manpower_modifier = 0.22 # submod: nerf B tier -1/3
 }
 azkare_bokai_bonus_big = {
-	global_manpower_modifier = 0.20
+	global_manpower_modifier = 0.1333 # submod: nerf B tier -1/3
 }
 azkare_bokai_bonus_medium = {
-	global_manpower_modifier = 0.15
+	global_manpower_modifier = 0.10 # submod: nerf B tier -1/3
 }
 azkare_bokai_bonus_small = {
-	global_manpower_modifier = 0.10
+	global_manpower_modifier = 0.0667 # submod: nerf B tier -1/3
 }
 azkare_binhrung_bonus_massive = {
-	province_warscore_cost = -0.2
+	province_warscore_cost = -0.1 # submod: nerf S tier -50%
 }
 azkare_binhrung_bonus_big = {
-	province_warscore_cost = -0.15
+	province_warscore_cost = -0.075 # submod: nerf S tier -50%
 }
 azkare_binhrung_bonus_medium = {
-	province_warscore_cost = -0.1
+	province_warscore_cost = -0.05 # submod: nerf S tier -50%
 }
 azkare_binhrung_bonus_small = {
-	province_warscore_cost = -0.05
+	province_warscore_cost = -0.025 # submod: nerf S tier -50%
 }
 azkare_hinphat_bonus_massive = {
 	vassal_income = 0.35
@@ -17875,7 +17875,7 @@ azkare_muthadhaya_bonus_medium = {
 	all_power_cost = -0.010
 }
 azkare_muthadhaya_bonus_small = {
-	all_power_cost = -0.005
+	all_power_cost = -0.005 # submod - left alone
 }
 azkare_ghavaanaj_bonus_massive = {
 	prestige = 1.5
@@ -17974,124 +17974,124 @@ azkare_sarniryabsad_bonus_small = {
 	num_accepted_cultures = 1
 }
 azkare_dhukharuved_bonus_massive = {
-	global_tax_modifier = 0.35
+	global_tax_modifier = 0.23 # submod: nerf B tier -1/3
 }
 azkare_dhukharuved_bonus_big = {
-	global_tax_modifier = 0.20
+	global_tax_modifier = 0.13 # submod: nerf B tier -1/3
 }
 azkare_dhukharuved_bonus_medium = {
-	global_tax_modifier = 0.10
+	global_tax_modifier = 0.067 # submod: nerf B tier -1/3
 }
 azkare_dhukharuved_bonus_small = {
-	global_tax_modifier = 0.05
+	global_tax_modifier = 0.033 # submod: nerf B tier -1/3
 }
 azkare_ghankedhen_bonus_massive = {
-	manpower_recovery_speed = 0.30
+	manpower_recovery_speed = 0.15 # submod: nerf S tier -50%
 }
 azkare_ghankedhen_bonus_big = {
-	manpower_recovery_speed = 0.20
+	manpower_recovery_speed = 0.10 # submod: nerf S tier -50%
 }
 azkare_ghankedhen_bonus_medium = {
-	manpower_recovery_speed = 0.10
+	manpower_recovery_speed = 0.05 # submod: nerf S tier -50%
 }
 azkare_ghankedhen_bonus_small = {
-	manpower_recovery_speed = 0.05
+	manpower_recovery_speed = 0.025 # submod: nerf S tier -50%
 }
 azkare_pasindesh_bonus_massive = {
-	development_cost = -0.1
+	development_cost = -0.05 # submod: nerf S tier -50%
 }
 azkare_pasindesh_bonus_big = {
-	development_cost = -0.075
+	development_cost = -0.0375 # submod: nerf S tier -50%
 }
 azkare_pasindesh_bonus_medium = {
-	development_cost = -0.05
+	development_cost = -0.025 # submod: nerf S tier -50%
 }
 azkare_pasindesh_bonus_small = {
-	development_cost = -0.025
+	development_cost = -0.0125 # submod: nerf S tier -50%
 }
 azkare_rabhidarubsad_bonus_massive = {
-	technology_cost = -0.10
+	technology_cost = -0.05 # submod: nerf S tier -50%
 }
 azkare_rabhidarubsad_bonus_big = {
-	technology_cost = -0.075
+	technology_cost = -0.0375 # submod: nerf S tier -50%
 }
 azkare_rabhidarubsad_bonus_medium = {
-	technology_cost = -0.05
+	technology_cost = -0.025 # submod: nerf S tier -50%
 }
 azkare_rabhidarubsad_bonus_small = {
-	technology_cost = -0.025
+	technology_cost = -0.0125 # submod: nerf S tier -50%
 }
 azkare_sobhagand_bonus_massive = {
-	build_cost = -0.20
+	build_cost = -0.13 # submod: nerf B tier -1/3
 }
 azkare_sobhagand_bonus_big = {
-	build_cost = -0.15
+	build_cost = -0.10 # submod: nerf B tier -1/3
 }
 azkare_sobhagand_bonus_medium = {
-	build_cost = -0.1
+	build_cost = -0.067 # submod: nerf B tier -1/3
 }
 azkare_sobhagand_bonus_small = {
-	build_cost = -0.05
+	build_cost = -0.033 # submod: nerf B tier -1/3
 }
 azkare_shandibad_bonus_massive = {
-	land_maintenance_modifier = -0.20
+	land_maintenance_modifier = -0.15 # submod: nerf land maintenance -1/4
 }
 azkare_shandibad_bonus_big = {
-	land_maintenance_modifier = -0.15
+	land_maintenance_modifier = -0.11 # submod: nerf land maintenance -1/4
 }
 azkare_shandibad_bonus_medium = {
-	land_maintenance_modifier = -0.10
+	land_maintenance_modifier = -0.075 # submod: nerf land maintenance -1/4
 }
 azkare_shandibad_bonus_small = {
-	land_maintenance_modifier = -0.05
+	land_maintenance_modifier = -0.0375 # submod: nerf land maintenance -1/4
 }
 azkare_rajnadhid_bonus_massive = {
-	dip_tech_cost_modifier = -0.15
+	dip_tech_cost_modifier = -0.10 # submod: nerf A tier -1/3
 }
 azkare_rajnadhid_bonus_big = {
-	dip_tech_cost_modifier = -0.10
+	dip_tech_cost_modifier = -0.0667 # submod: nerf A tier -1/3
 }
 azkare_rajnadhid_bonus_medium = {
-	dip_tech_cost_modifier = -0.05
+	dip_tech_cost_modifier = -0.0333 # submod: nerf A tier -1/3
 }
 azkare_rajnadhid_bonus_small = {
-	dip_tech_cost_modifier = -0.025
+	dip_tech_cost_modifier = -0.0167 # submod: nerf A tier -1/3
 }
 azkare_khedarid_bonus_massive = {
-	mil_tech_cost_modifier = -0.15
+	mil_tech_cost_modifier = -0.10 # submod: nerf A tier -1/3
 }
 azkare_khedarid_bonus_big = {
-	mil_tech_cost_modifier = -0.10
+	mil_tech_cost_modifier = -0.0667 # submod: nerf A tier -1/3
 }
 azkare_khedarid_bonus_medium = {
-	mil_tech_cost_modifier = -0.05
+	mil_tech_cost_modifier = -0.0333 # submod: nerf A tier -1/3
 }
 azkare_khedarid_bonus_small = {
-	mil_tech_cost_modifier = -0.025
+	mil_tech_cost_modifier = -0.0167 # submod: nerf A tier -1/3
 }
 azkare_shamadhan_bonus_massive = {
-	global_regiment_cost = -0.15
+	global_regiment_cost = -0.10 # submod: nerf regiment cost -1/3
 }
 azkare_shamadhan_bonus_big = {
-	global_regiment_cost = -0.10
+	global_regiment_cost = -0.067 # submod: nerf regiment cost -1/3
 }
 azkare_shamadhan_bonus_medium = {
-	global_regiment_cost = -0.075
+	global_regiment_cost = -0.05 # submod: nerf regiment cost -1/3
 }
 azkare_shamadhan_bonus_small = {
-	global_regiment_cost = -0.05
+	global_regiment_cost = -0.033 # submod: nerf regiment cost -1/3
 }
 azkare_kamtarhid_bonus_massive = {
-	adm_tech_cost_modifier = -0.15
+	adm_tech_cost_modifier = -0.10 # submod: nerf A tier -1/3
 }
 azkare_kamtarhid_bonus_big = {
-	adm_tech_cost_modifier = -0.10
+	adm_tech_cost_modifier = -0.0667 # submod: nerf A tier -1/3
 }
 azkare_kamtarhid_bonus_medium = {
-	adm_tech_cost_modifier = -0.05
+	adm_tech_cost_modifier = -0.0333 # submod: nerf A tier -1/3
 }
 azkare_kamtarhid_bonus_small = {
-	adm_tech_cost_modifier = -0.025
+	adm_tech_cost_modifier = -0.0167 # submod: nerf A tier -1/3
 }
 azkare_pinghoi_bonus_massive = { #Not ingame yet
 
@@ -18106,16 +18106,16 @@ azkare_pinghoi_bonus_small = { #Not ingame yet
 
 }
 azkare_jiangszun_bonus_massive = { #Jiangszun in doc and loc
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.10 # submod: nerf B tier -1/3
 }
 azkare_jiangszun_bonus_big = { #Jiangszun in doc and loc
-	global_trade_goods_size_modifier = 0.10
+	global_trade_goods_size_modifier = 0.067 # submod: nerf B tier -1/3
 }
 azkare_jiangszun_bonus_medium = { #Jiangszun in doc and loc
-	global_trade_goods_size_modifier = 0.075
+	global_trade_goods_size_modifier = 0.05 # submod: nerf B tier -1/3
 }
 azkare_jiangszun_bonus_small = { #Jiangszun in doc and loc
-	global_trade_goods_size_modifier = 0.05
+	global_trade_goods_size_modifier = 0.033 # submod: nerf B tier -1/3
 }
 azkare_naamjyut_bonus_massive = { #Zyuhungwan in doc and loc
 	production_efficiency = 0.20
@@ -18130,28 +18130,28 @@ azkare_naamjyut_bonus_small = { #Zyuhungwan in doc and loc
 	production_efficiency = 0.05
 }
 azkare_szitu_bonus_massive = { #Zh?ngzhu in doc and loc
-	infantry_power = 0.20
+	infantry_power = 0.10 # submod: nerf S tier -50%
 }
 azkare_szitu_bonus_big = { #Zh?ngzhu in doc and loc
-	infantry_power = 0.15
+	infantry_power = 0.075 # submod: nerf S tier -50%
 }
 azkare_szitu_bonus_medium = { #Zh?ngzhu in doc and loc
-	infantry_power = 0.10
+	infantry_power = 0.05 # submod: nerf S tier -50%
 }
 azkare_szitu_bonus_small = { #Zh?ngzhu in doc and loc
-	infantry_power = 0.05
+	infantry_power = 0.025 # submod: nerf S tier -50%
 }
 azkare_jiangyang_bonus_massive = { #M?obian in doc and loc
-	army_tradition = 1.5
+	army_tradition = 1.0 # submod: nerf army tradition -1/3
 }
 azkare_jiangyang_bonus_big = { #M?obian in doc and loc
-	army_tradition = 1
+	army_tradition = 0.67 # submod: nerf army tradition -1/3
 }
 azkare_jiangyang_bonus_medium = { #M?obian in doc and loc
-	army_tradition = 0.5
+	army_tradition = 0.33 # submod: nerf army tradition -1/3
 }
 azkare_jiangyang_bonus_small = { #M?obian in doc and loc
-	army_tradition = 0.25
+	army_tradition = 0.17 # submod: nerf army tradition -1/3
 }
 azkare_gangim_bonus_massive = {
 	ship_power_propagation = 0.33
@@ -18166,16 +18166,16 @@ azkare_gangim_bonus_small = {
 	ship_power_propagation = 0.10
 }
 azkare_daxug_bonus_massive = {
-	state_governing_cost = -0.25
+	state_governing_cost = -0.17 # submod: nerf B tier -1/3
 }
 azkare_daxug_bonus_big = {
-	state_governing_cost = -0.15
+	state_governing_cost = -0.10 # submod: nerf B tier -1/3
 }
 azkare_daxug_bonus_medium = {
-	state_governing_cost = -0.1
+	state_governing_cost = -0.067 # submod: nerf B tier -1/3
 }
 azkare_daxug_bonus_small = {
-	state_governing_cost = -0.05
+	state_governing_cost = -0.033 # submod: nerf B tier -1/3
 }
 azkare_beikling_bonus_massive = { #Mogur?n in doc and loc
 	garrison_size = 0.33
@@ -18226,88 +18226,88 @@ azkare_paru_bonus_small = {
 	naval_morale = 0.05
 }
 azkare_sirtana_bonus_massive = {
-	cavalry_power = 0.20
+	cavalry_power = 0.10 # submod: nerf S tier -50%
 }
 azkare_sirtana_bonus_big = {
-	cavalry_power = 0.15
+	cavalry_power = 0.075 # submod: nerf S tier -50%
 }
 azkare_sirtana_bonus_medium = {
-	cavalry_power = 0.10
+	cavalry_power = 0.05 # submod: nerf S tier -50%
 }
 azkare_sirtana_bonus_small = {
-	cavalry_power = 0.05
+	cavalry_power = 0.025 # submod: nerf S tier -50%
 }
 azkare_serene_harimari_bonus_massive = {
-	infantry_shock = 0.25
+	infantry_shock = 0.125 # submod: nerf S tier -50%
 }
 azkare_serene_harimari_bonus_big = {
-	infantry_shock = 0.20
+	infantry_shock = 0.10 # submod: nerf S tier -50%
 }
 azkare_serene_harimari_bonus_medium = {
-	infantry_shock = 0.15
+	infantry_shock = 0.075 # submod: nerf S tier -50%
 }
 azkare_serene_harimari_bonus_small = {
-	infantry_shock = 0.10
+	infantry_shock = 0.05 # submod: nerf S tier -50%
 }
 azkare_royal_harimari_bonus_massive = {
-	administrative_efficiency = 0.1
+	administrative_efficiency = 0.067 # submod: nerf A tier -1/3
 }
 azkare_royal_harimari_bonus_big = {
-	administrative_efficiency = 0.075
+	administrative_efficiency = 0.05 # submod: nerf A tier -1/3
 }
 azkare_royal_harimari_bonus_medium = {
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.03 # submod: nerf A tier -1/3
 }
 azkare_royal_harimari_bonus_small = {
-	administrative_efficiency = 0.025
+	administrative_efficiency = 0.02 # submod: nerf A tier -1/3
 }
 azkare_swallow_command_bonus_massive = {
-	mercenary_discipline = 0.15
+	mercenary_discipline = 0.075 # submod: nerf S tier -50%
 }
 azkare_swallow_command_bonus_big = {
-	mercenary_discipline = 0.10
+	mercenary_discipline = 0.05 # submod: nerf S tier -50%
 }
 azkare_swallow_command_bonus_medium = {
-	mercenary_discipline = 0.05
+	mercenary_discipline = 0.025 # submod: nerf S tier -50%
 }
 azkare_swallow_command_bonus_small = {
-	mercenary_discipline = 0.025
+	mercenary_discipline = 0.0125 # submod: nerf S tier -50%
 }
 azkare_fenghuang_command_bonus_massive = {
-	discipline = 0.1
+	discipline = 0.05 # submod: nerf S tier -50%
 }
 azkare_fenghuang_command_bonus_big = {
-	discipline = 0.05
+	discipline = 0.025 # submod: nerf S tier -50%
 }
 azkare_fenghuang_command_bonus_medium = {
-	discipline = 0.025
+	discipline = 0.0125 # submod: nerf S tier -50%
 }
 azkare_fenghuang_command_bonus_small = {
-	discipline = 0.01
+	discipline = 0.005 # submod: nerf S tier -50%
 }
 azkare_pezarangi_harpy_bonus_massive = {
-	movement_speed = 0.20
+	movement_speed = 0.13 # submod: nerf A tier -1/3
 }
 azkare_pezarangi_harpy_bonus_big = {
-	movement_speed = 0.15
+	movement_speed = 0.10 # submod: nerf A tier -1/3
 }
 azkare_pezarangi_harpy_bonus_medium = {
-	movement_speed = 0.10
+	movement_speed = 0.067 # submod: nerf A tier -1/3
 }
 azkare_pezarangi_harpy_bonus_small = {
-	movement_speed = 0.05
+	movement_speed = 0.033 # submod: nerf A tier -1/3
 }
 azkare_nephrite_dwarf_bonus_massive = {
-	fire_damage_received = -0.20
+	fire_damage_received = -0.10 # submod: nerf B tier exception -50%
 }
 azkare_nephrite_dwarf_bonus_big = {
-	fire_damage_received = -0.15
+	fire_damage_received = -0.075 # submod: nerf B tier exception -50%
 }
 azkare_nephrite_dwarf_bonus_medium = {
-	fire_damage_received = -0.10
+	fire_damage_received = -0.05 # submod: nerf B tier exception -50%
 }
 azkare_nephrite_dwarf_bonus_small = {
-	fire_damage_received = -0.05
+	fire_damage_received = -0.025 # submod: nerf B tier exception -50%
 }
 azkare_goldscale_kobold_bonus_massive = {
 	global_unrest = -2.5
@@ -18322,16 +18322,16 @@ azkare_goldscale_kobold_bonus_small = {
 	global_unrest = -1
 }
 azkare_brown_orc_bonus_massive = {
-	land_morale = 0.15
+	land_morale = 0.075 # submod: nerf S tier -50%
 }
 azkare_brown_orc_bonus_big = {
-	land_morale = 0.10
+	land_morale = 0.05 # submod: nerf S tier -50%
 }
 azkare_brown_orc_bonus_medium = {
-	land_morale = 0.075
+	land_morale = 0.0375 # submod: nerf S tier -50%
 }
 azkare_brown_orc_bonus_small = {
-	land_morale = 0.05
+	land_morale = 0.025 # submod: nerf S tier -50%
 }
 azkare_reorganise_kai = { }
 azkare_reorganise_bom = { }

@@ -20711,11 +20711,11 @@ Y86_ideas = {
 		infantry_power = 0.1
 	}
 	Y86_school_of_the_phoenix = { #Tactics crafted from fusing elven discipline and Xia arts
-		discipline = 0.05
+		# discipline = 0.05 submod
 		shock_damage = 0.05
 	}
 	Y86_hiderions_ambition = { #Hiderion seeks to gather the elves scattered across Haless and forge a new sunrise empire
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.10 # submod
 	}
 }
 

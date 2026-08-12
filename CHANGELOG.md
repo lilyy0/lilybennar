@@ -1,7 +1,8 @@
 # Changelog
 
 ## Season 14 (main, in progress)
-- Territorial/vassal adjustments: transferred provinces from Azjakuma to V21, Sareyand to F83, and Bianfang to Y11/Z59/Z58 (with cores removed from the former owners); freed F35, F41, R83, F24, F40, F43, F44, J35, J36, and J37 from vassalage to Sareyand, Bianfang, Irrliam, and Maghargma respectively.
+- Azkare nerfs: many sunrise convocation modifiers significantly reduced, disc removed and PWSC nerfed from ideas
+- Season 14-specific province/vassal setup adjustments: transferred provinces from Azjakuma to V21, Sareyand to F83, and Bianfang to Y11/Z59/Z58 (with cores removed from the former owners); freed F35, F41, R83, F24, F40, F43, F44, J35, J36, and J37 from vassalage to Sareyand, Bianfang, Irrliam, and Maghargma respectively.
 - reverted corvuria/gnomish hierarchy cosmetic changes
 - Added Kvasz's unique decisions: a "give up hegemony" decision, an expand infrastructure tracking decision, and a dev click counter (`6615bd7f`)
 - Added a new "Cloves Abundance" trade goods event that permanently drops the price of cloves once there are more than 5 cloves provinces, and lowered cloves' base price (8 → 5). (`6615bd7f`)
