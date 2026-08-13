@@ -233,6 +233,11 @@ country_event = {
 				charkuchar_superregion = { destroy_province_permanently = yes }
 				great_plateau_region = { destroy_province_permanently = yes }
 				insyaan_mushroom_forest_region = { destroy_province_permanently = yes }
+				set_global_flag = delete_cannor_region
+				set_global_flag = delete_north_sarhal_region
+				set_global_flag = delete_south_sarhal_region
+				set_global_flag = delete_deepwoods_region
+				set_global_flag = delete_west_serpentspine_region
 			}
 		}
 		set_global_flag = settings_done

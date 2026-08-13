@@ -2505,7 +2505,7 @@ magocracy_ideas = {
 	category = DIP
 
 	bonus = {
-		give_magical_infrastructure_perm_bypass = yes
+		# magic infrastructure is meant to be bonus but cant be put here
 	}
 	
 	trigger = {
@@ -2551,8 +2551,14 @@ magocracy_ideas = {
 		max_hostile_attrition = 1
 		#Anbennar
 		
-		effect = { on_idea_taken_effect = yes on_idea_group_finished_effect = yes }
-		removed_effect = { on_idea_removed_effect = yes on_idea_group_unfinished_effect = yes }
+		effect = {
+			on_idea_taken_effect = yes on_idea_group_finished_effect = yes
+			give_magical_infrastructure_perm_bypass = yes
+		}
+		removed_effect = {
+			on_idea_removed_effect = yes on_idea_group_unfinished_effect = yes
+			remove_magical_infrastructure_perm_bypass = yes
+		}
 	}
 
 	ai_will_do = {
