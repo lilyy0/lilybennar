@@ -1620,11 +1620,26 @@ phoenix_empire_3 = {
 		
 		provinces_to_highlight = {
 			superregion = bulwar_superregion
+				NOT = {
+					region = bahar_region
+				}
 			NOT = { owned_by = ROOT }
 		}
 		
 		trigger = {
-			bulwar_superregion = {
+			bulwar_proper_region = {
+				type = all
+				owned_by = ROOT
+			}
+			harpy_hills_region = {
+				type = all
+				owned_by = ROOT
+			}
+			far_bulwar_region = {
+				type = all
+				owned_by = ROOT
+			}
+			far_salahad_region = {
 				type = all
 				owned_by = ROOT
 			}
@@ -1633,6 +1648,7 @@ phoenix_empire_3 = {
 				government = monarchy
 			}
 		}
+		
 		
 		effect = {
 			if = {
@@ -2183,7 +2199,19 @@ phoenix_empire_3 = {
 		}
 		
 		trigger = {
-			bulwar_superregion = {
+			bulwar_proper_region = {
+				type = all
+				religion = bulwari_sun_cult
+			}
+			harpy_hills_region = {
+				type = all
+				religion = bulwari_sun_cult
+			}
+			far_bulwar_region = {
+				type = all
+				religion = bulwari_sun_cult
+			}
+			far_salahad_region = {
 				type = all
 				religion = bulwari_sun_cult
 			}
