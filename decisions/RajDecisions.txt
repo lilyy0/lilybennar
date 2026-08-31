@@ -64,7 +64,7 @@ country_decisions = {
 				owns_or_non_sovereign_subject_of = 4409
 				owns_or_non_sovereign_subject_of = 4485
 			}			
-			NOT = { tag = R77 }
+			# NOT = { tag = R77 } submod
 			is_at_war = no
 			calc_true_if = {
 				amount = 3
