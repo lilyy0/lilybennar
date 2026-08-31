@@ -992,7 +992,16 @@ printing_press = {
 			}
 		}
 		else_if = { limit = { NOT = { has_global_flag = delete_bulwar_region } }
-			superregion = bulwar_superregion
+			OR = {	
+				superregion = bulwar_superregion
+				superregion = rahen_superregion
+				superregion = yanshen_superregion
+				superregion = vimdatrong_superregion
+				superregion = gozengun_superregion
+				superregion = forbidden_lands_superregion
+				superregion = east_serpentspine_superregion
+				region = middle_dwarovar_region
+			}
 		}
 		else_if = { limit = { NOT = { has_global_flag = delete_rahen_region } }
 			superregion = rahen_superregion
