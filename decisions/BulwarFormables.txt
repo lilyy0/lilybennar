@@ -428,16 +428,16 @@ country_decisions = {
 					change_variable = { which = totalVassalDev value = -1 }
 				}
 			}
-			custom_tooltip = integrating_vassals_cost_2_dip_tt
-			every_subject_country = {
-				limit = {
-					capital_scope = { superregion = bulwar_superregion }
-					NOT = { liberty_desire = 50 }
-					NOT = { is_subject_of_type = tributary_state_anb } # possible now the mandate grants tributary ability
-					NOT = { is_subject_of_type = tributary_state }
-				}
-				ROOT = { inherit = PREV }
-			}
+			#custom_tooltip = integrating_vassals_cost_2_dip_tt
+			#every_subject_country = {
+			#	limit = {
+			#		capital_scope = { superregion = bulwar_superregion }
+			#		NOT = { liberty_desire = 50 }
+			#		NOT = { is_subject_of_type = tributary_state_anb } # possible now the mandate grants tributary ability
+			#		NOT = { is_subject_of_type = tributary_state }
+			#	}
+			#	ROOT = { inherit = PREV }
+			#}
 			hidden_effect = {
 				every_owned_province = {
 					limit = {

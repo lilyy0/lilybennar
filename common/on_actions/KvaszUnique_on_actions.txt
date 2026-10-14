@@ -71,6 +71,24 @@ on_startup = {
 			}
 		}
 	}
+
+	if = {
+		limit = {
+			NOT = { has_global_flag = fahv_nuked }
+		}
+		
+		every_province = {
+			limit = {
+				region = fahvanosy_region
+				is_city = yes
+			}
+
+			set_base_tax = 1
+			set_base_production = 1
+			set_base_manpower = 1
+		}
+		set_global_flag = fahv_nuked
+	}
 }
 
 

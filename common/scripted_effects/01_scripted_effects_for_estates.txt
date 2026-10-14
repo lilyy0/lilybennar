@@ -4024,6 +4024,33 @@ on_province_owner_change_estate_privileges_effect = {
 		}
 		else = { add_province_modifier = { name = estate_mages_development_of_mage_towers_improved_mod duration = -1 }  }
 	}
+
+	# SUBMOD
+	if = {
+		limit = {
+			owner = {
+				has_estate_privilege = estate_burghers_lizardfolk_architectural_renaissance
+			}
+		}
+		if = {
+			limit = {
+				has_terrain = jungle
+			}
+			add_province_modifier = {
+				name = estate_burghers_lizardfolk_architectural_renaissance_jungle
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				has_terrain = marsh
+			}
+			add_province_modifier = {
+				name = estate_burghers_lizardfolk_architectural_renaissance_marsh
+				duration = -1
+			}
+		}
+	}
 }
 
 on_province_tax_building_built_estate_privileges_effect = {

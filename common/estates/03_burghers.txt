@@ -741,6 +741,9 @@ estate_burghers = {
 
 		#Karach
 		estate_burghers_monopoly_of_naval_supplies_fish
+
+		# SUBMOD
+		estate_burghers_lizardfolk_architectural_renaissance
 	}
 
 	agendas = {
