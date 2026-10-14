@@ -1,7 +1,7 @@
-owner = Y01
-controller = Y01
-add_core = Y01
+owner = V21 # submod
+controller = V21 # submod
 add_core = V21
+# submod: removed add_core = Y01
 culture = beikling
 religion = devouring_path
 

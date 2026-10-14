@@ -9,6 +9,7 @@ estate_monstrous_tribes = {
 		NOT = { is_revolutionary_republic_trigger = yes }
 		NOT = { has_reform = pirate_republic_reform }
 		NOT = { has_reform = cossacks_reform }
+		NOT = { has_reform = harpy_matriarchy_reform }
 		
 		NOT = { has_adventurer_reform = yes }
 		is_monstrous_horde = yes

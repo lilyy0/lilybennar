@@ -12029,11 +12029,15 @@ country_event = {
 				owns = 4871
 				NOT = { has_global_flag = rending_active }
 			}
+			# SUBMOD
+			is_year = 1600
 		}
 	}
 
 	mean_time_to_happen = {
-		years = 50
+		# old: years = 50
+		# Submod
+		years = 1
 		modifier = {
 			factor = 0.95
 			NOT = {

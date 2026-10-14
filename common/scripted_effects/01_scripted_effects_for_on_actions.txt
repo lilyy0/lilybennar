@@ -11075,11 +11075,26 @@ on_force_conversion_effect = {
 }
 
 on_general_recruited_effect = {
+	limit = { # submod change
+		OR = {
+			NOT = { has_country_flag = recently_recruited_general }
+			had_country_flag = {
+				flag = recently_recruited_general
+				days = 120
+			}
+			NOT = { is_year = 1550 }
+		}
+	}
 	if = {
 		limit = { has_country_modifier = pol_trigger_for_army_professionalism_modifier } 
 		add_army_professionalism = 0.0125 
 	}
 	else = { add_army_professionalism = 0.01 }
+	if = { # submod change
+		limit = { is_year = 1550 }
+		clr_country_flag = recently_recruited_general
+		set_country_flag = recently_recruited_general
+	}
 	if = {
 		limit = { has_government_attribute = recruiting_generals_increases_nobles_loyalty }
 		if = {

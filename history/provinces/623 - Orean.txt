@@ -1,9 +1,9 @@
 
 # No previous file for Tulangbewang
-owner = F25
-controller = F25
-add_core = F25
+owner = F83 # submod
+controller = F83 # submod
 add_core = F83
+# submod: removed add_core = F25
 culture = sun_elf
 religion = bulwari_sun_cult
 

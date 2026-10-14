@@ -10,7 +10,8 @@ edict_encourage_development = {
 	years_to_notify = 3 #specifies how many years an edict needs to be active to show an alert
 	
 	modifier = {
-		local_development_cost = -0.1
+		# submod - old development cost = -0.1
+		local_monthly_devastation = -0.33
 	}
 	
 	color = {  244 184 12  }

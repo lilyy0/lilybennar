@@ -3687,7 +3687,7 @@ merc_devils_backline_2 = {
 	trigger = { has_country_flag = summon_extraplanars_devils_backline_2 }
 	modifier = {
 		backrow_artillery_damage = 0.1
-		fire_damage = 0.15
+		fire_damage = 0.075 # submod
 	}
 	counts_towards_force_limit = no
 }

@@ -438,7 +438,7 @@
  summon_extraplanars_project_devils_frontline:0 "Upgrade to §YBeings of Rage Unending§!, giving the following modifiers:\nArtillery Shock: §G+0.5§!"
  summon_extraplanars_project_devils_frontline_2:0 "Upgrade to §YBeings of Unflinching Hate§!, giving the following modifiers:\nLand Morale: §G+25.0%§!"
  summon_extraplanars_project_devils_backline:0 "Upgrade to §YBeings of Lonesome Fire§!, giving the following modifiers:\nArtillery Damage from Back Row: §G+10.0%§!"
- summon_extraplanars_project_devils_backline_2:0 "Upgrade to §YBeings of Resplendent Burning§!, giving the following modifiers:\nLand Fire Damage: §G+15.0%§!"
+ summon_extraplanars_project_devils_backline_2:0 "Upgrade to §YBeings of Resplendent Burning§!, giving the following modifiers:\nLand Fire Damage: §G+7.5%§!"
  
  ##########################
  ### ORB OF OMNISCIENCE ### Localisation written by Reti

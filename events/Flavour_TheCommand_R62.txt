@@ -5898,10 +5898,11 @@ country_event = { #Growing Concerns
 		}
 	}
 
+    # Submod: force option c for consistent outcome (unless khadirapsur is picked :3)
 	option = {
 		name = the_command.111.a
 		ai_chance = {
-			factor = 10
+			factor = 1
 		}
 		custom_tooltip = command_sir_revolt_difficulty_warning_tt
 		custom_tooltip = command_sir_revolt_rewards_hint_tt
@@ -5911,7 +5912,7 @@ country_event = { #Growing Concerns
 	option = {
 		name = the_command.111.b
 		ai_chance = {
-			factor = 10
+			factor = 0
 			modifier = {
 				factor = 0
 				has_country_flag = take_strongest_sir_revolt
@@ -5925,7 +5926,7 @@ country_event = { #Growing Concerns
 	option = {
 		name = the_command.111.c
 		ai_chance = {
-			factor = 30
+			factor = 99
 			modifier = {
 				factor = 0
 				has_country_flag = take_strongest_sir_revolt
@@ -5939,7 +5940,7 @@ country_event = { #Growing Concerns
 	option = {
 		name = the_command.111.d
 		ai_chance = {
-			factor = 30
+			factor = 0
 			modifier = {
 				factor = 0
 				has_country_flag = take_strongest_sir_revolt

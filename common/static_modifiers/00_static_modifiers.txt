@@ -909,6 +909,7 @@ mercantilism = {
 
 army_tradition = {
 	recover_army_morale_speed = 0.1
+	yearly_army_professionalism = 0.01 #submod change
 	land_morale = 0.25
 	manpower_recovery_speed = 0.1
 	siege_ability = 0.05
@@ -1943,7 +1944,7 @@ karma_just_right =
 
 	war_exhaustion = -0.03
 	yearly_corruption = -0.1
-	discipline = 0.035
+	army_tradition = 0.5 	#submod change from 3.5 discipline 
 	ae_impact = -0.1
 }
 

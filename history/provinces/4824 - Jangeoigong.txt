@@ -1,7 +1,7 @@
-owner = Y09
-controller = Y09
-add_core = Y09
+owner = Z58 # submod
+controller = Z58 # submod
 add_core = Z58
+# submod: removed add_core = Y09
 add_permanent_claim = Y23
 culture = naamjyut
 religion = accretive_path

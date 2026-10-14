@@ -21,7 +21,7 @@ cannorian = {
 			ravelian
 		}
 		country = {
-			tolerance_heathen = 2
+			infantry_power = 0.05 	# submod change from 2 toh
 			stability_cost_modifier = -0.15
 		}
 		country_as_secondary = {
@@ -592,7 +592,7 @@ cannorian = {
 				}
 			}
 			use_warrior_automata = {
-				cost = 50
+				cost = 150 	#submod change from 50
 				potential = {
 					NOT = { tag = Z97 }
 				}
@@ -1679,7 +1679,7 @@ khetist = {
 			aakhetist_aakhet_blessing
 			aakhetist_aakhet_wrath
 			aakhetist_aakhet_retinue
-			aakhetist_aakhet_rage
+			#aakhetist_aakhet_rage # Submod: disabled
 			aakhetist_aakhet_conquest
 			aakhetist_aakhet_wisdom
 			aakhetist_aakhet_glory

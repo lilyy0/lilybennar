@@ -780,7 +780,7 @@ set_up_artifice_system = {
 			OR = {
 				is_artificery_culture_government = yes
 				AND = {
-					has_institution = manufactories
+					has_institution = global_trade #Submod changed from manufactories to 50 years sooner
 					OR = {
 						NOT = { religion = bulwari_sun_cult }
 						is_chosen_country = no

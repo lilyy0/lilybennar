@@ -1087,21 +1087,21 @@ custom_button = { #vampire_spread_action
 		ROOT = {
 			if = {
 				limit = { ai = yes }
-				OR = {
-					culture_is_human = yes #Can only spread to humans as everyone else says no
-					culture_is_half_elven = yes #Or half elves
-				}
+				#OR = { - in our submod ANYONE can be an vampire
+				#	culture_is_human = yes #Can only spread to humans as everyone else says no
+				#	culture_is_half_elven = yes #Or half elves
+				#}
 				NOT = { has_estate = estate_vampires }
 			}
 			else = {
 				NOT = { has_estate = estate_vampires }
 			}
-			capital_scope = {
-				OR = {
-					continent = europe
-					range = FROM
-				}
-			}
+			#capital_scope = {
+			#	OR = {
+			#		continent = europe
+			#		range = FROM
+			#	}
+			#}
 		}
 	}
 	effect = {

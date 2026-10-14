@@ -4668,9 +4668,9 @@ lorenans_rest = {
 					OR = {
 						dynasty = "Siloriel"
 						dynasty = "Silmuna"
-						dynasty = "síl Rubenaire"
-						dynasty = "síl Eilísin"
-						dynasty = "síl Kyliande"
+						dynasty = "sï¿½l Rubenaire"
+						dynasty = "sï¿½l Eilï¿½sin"
+						dynasty = "sï¿½l Kyliande"
 					}
 				}
 			}
@@ -4689,9 +4689,9 @@ lorenans_rest = {
 					OR = {
 						dynasty = "Siloriel"
 						dynasty = "Silmuna"
-						dynasty = "síl Rubenaire"
-						dynasty = "síl Eilísin"
-						dynasty = "síl Kyliande"
+						dynasty = "sï¿½l Rubenaire"
+						dynasty = "sï¿½l Eilï¿½sin"
+						dynasty = "sï¿½l Kyliande"
 					}
 				}
 			}
@@ -4783,7 +4783,7 @@ lorenans_rest = {
 		country_modifiers = {
 			legitimacy = 0.50
 			cav_to_inf_ratio = 0.15
-			cavalry_power = 0.05
+			# cavalry_power = 0.05 # submod
 		}
 
 		on_upgraded = {
@@ -4821,7 +4821,7 @@ lorenans_rest = {
 		country_modifiers = {
 			legitimacy = 1.00
 			cav_to_inf_ratio = 0.25
-			cavalry_power = 0.10
+			# cavalry_power = 0.10 # submod
 			accept_vassalization_reasons = 10
 		}
 
@@ -5939,7 +5939,7 @@ toncodden_lighthouse = {
 
 		country_modifiers = {
 			naval_attrition = -0.10
-			artificers_capacity = 10
+			# artificers_capacity = 10 # submod
 		}
 
 		on_upgraded = {
@@ -5976,7 +5976,7 @@ toncodden_lighthouse = {
 		country_modifiers = {
 			naval_attrition = -0.15
 			naval_morale = 0.05
-			artificers_capacity = 20
+			# artificers_capacity = 20 # submod
 		}
 
 		on_upgraded = {
@@ -6014,7 +6014,7 @@ toncodden_lighthouse = {
 		country_modifiers = {
 			naval_attrition = -0.20
 			naval_morale = 0.10
-			artificers_capacity = 30
+			# artificers_capacity = 30 # submod
 		}
 
 		on_upgraded = {

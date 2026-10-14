@@ -1918,10 +1918,15 @@ A79_ideas = {
 	free = yes
 
 	A79_reconstitute_reconstruct_repatriate = {
-		development_cost = -0.15
+		# Submod: nerf from dev cost to build cost from Nimscodd ideas
+		#development_cost = -0.15
+		build_cost = -0.10
 	}
 	A79_all_small_artillerists = {
-		backrow_artillery_damage = 0.15
+		# Submod: nerf from backrow arty dmg to land attrition and defensiveness like in Nimscodd ideas
+		#backrow_artillery_damage = 0.15
+		land_attrition = -0.10
+		defensiveness = 0.10
 	}
 	A79_damestear_born_damestear_developed = {
 		idea_cost = -0.1
@@ -2692,7 +2697,7 @@ A81_ideas = {
 		improve_relation_modifier = 0.2
 	}
 	A81_giberd_civil_engineering_academy = {
-		development_cost = -0.1
+		# development_cost = -0.1 submod nerf
 		build_time = -0.15
 	}
 	A81_golden_giberdi = {
@@ -9785,7 +9790,7 @@ R73_ideas = {
 #Dhugajir
 R72_ideas = {
 	start = {
-		cav_to_inf_ratio = 0.25
+		cav_to_inf_ratio = 0.20 # submod
 		cavalry_cost = -0.2
 	}
 	bonus = {
@@ -9800,7 +9805,7 @@ R72_ideas = {
 		prestige = 1
 	}
 	R72_perfect_technique = {
-		cavalry_power = 0.33
+		cavalry_power = 0.15 # submod
 	}
 	ghavaanaj_festival_of_colours = {
 		stability_cost_modifier = -0.2
@@ -9812,7 +9817,7 @@ R72_ideas = {
 		trade_efficiency = 0.1
 	}
 	ghavaanaj_gun_turrets = {
-		cavalry_fire = 0.5
+		cavalry_fire = 0.3 # submod
 	}
 	R72_elephant_cannons = {
 		artillery_power = 0.1
@@ -12786,7 +12791,7 @@ H47_ideas = {
 J53_ideas = {
 	start = {
 		global_regiment_cost = -0.1
-		shock_damage_received = -0.15
+		shock_damage_received = -0.10 # submod
 	}
 	bonus = {
 		reduced_liberty_desire = 10
@@ -12814,7 +12819,7 @@ J53_ideas = {
 		global_supply_limit_modifier = 0.25
 	}
 	J53_horse_gunners = {
-		cavalry_fire = 0.5
+		cavalry_fire = 0.4 # submod
 	}
 	J53_adoptive_warfare = {
 		free_mil_policy = 1
@@ -18609,7 +18614,7 @@ Y99_ideas = {
 	free = yes
 
 	Y99_many_schools_into_one_path = {
-		infantry_power = 0.15
+		infantry_power = 0.10 # submod
 	}
 	Y99_stewards_of_the_xiadao = {
 		tolerance_own = 1
@@ -18617,7 +18622,7 @@ Y99_ideas = {
 	}
 	Y99_righteous_war_against_evil = {
 		global_missionary_strength = 0.02
-		warscore_cost_vs_other_religion = -0.15
+		warscore_cost_vs_other_religion = -0.10 # submod
 	}
 	Y99_creation_of_the_righteous_conclave = {
 		governing_capacity_modifier = 0.2
@@ -20706,11 +20711,11 @@ Y86_ideas = {
 		infantry_power = 0.1
 	}
 	Y86_school_of_the_phoenix = { #Tactics crafted from fusing elven discipline and Xia arts
-		discipline = 0.05
+		# discipline = 0.05 submod
 		shock_damage = 0.05
 	}
 	Y86_hiderions_ambition = { #Hiderion seeks to gather the elves scattered across Haless and forge a new sunrise empire
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.10 # submod
 	}
 }
 
@@ -27473,7 +27478,7 @@ L47_ideas = {
 #Fahvanosy
 S71_ideas = {
 	start = {
-		naval_morale = 0.2
+		recover_navy_morale_speed = 0.2 # submod, changed from 20% naval morale
 		merchants = 1
 	}
 	bonus = {
@@ -27497,7 +27502,7 @@ S71_ideas = {
 		naval_forcelimit_modifier = 0.25
 	}
 	S71_rise_and_renaissance = { #unity and prosperity makes good catalysts for a booming population and economy. New cities are built
-		development_cost = -0.10
+		build_time = -0.10 # submod, changed from -10% dev cost
 		build_cost = -0.10
 	}
 	S71_a_merchant_fleet = { #fahvanosy joining global trade, using its fleet around the world.

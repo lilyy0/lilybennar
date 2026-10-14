@@ -1233,18 +1233,21 @@ J53_highway_extension = {
 J53_cav_guns_1 = {
 	cavalry_fire = 0.5
 	cavalry_shock = -0.5
+	cavalry_power = 0.05
 }
 J53_cav_guns_2 = {
 	cavalry_fire = 1
 	cavalry_shock = -0.75
-	assault_fort_ability = 0.25
+	assault_fort_ability = 0.15 # submod
 	siege_ability = 0.10
+	cavalry_power = 0.1
 }
 J53_cav_guns_3 = {
-	cavalry_fire = 2
+	cavalry_fire = 1.5 # submod
 	cavalry_shock = -1
-	assault_fort_ability = 0.50
+	assault_fort_ability = 0.3 # submod
 	siege_ability = 0.20
+	cavalry_power = 0.1
 }
 
 #Sunijalla

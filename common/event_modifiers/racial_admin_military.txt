@@ -76,7 +76,7 @@ elven_military = {
 	
 	#Negatives
 	war_exhaustion_cost = 0.5		#-2 D / elves get weary of war quickly as they dont want to - its a big deal
-	manpower_recovery_speed = -0.5	#-5 B / very slow reproduction - worst in game
+	manpower_recovery_speed = -0.33	#-5 B / very slow reproduction - worst in game # Submod: -50% -> -33%
 	reinforce_speed = -0.33			#-2 B / elves are slow to rally
 	mercenary_discipline = -0.1 	#		imagine hiring human mercs as elven mil lol
 	merc_maintenance_modifier = 0.3 # 		you're essentially using human mercs as cannon fodder, they're gonna want good pay
@@ -655,9 +655,7 @@ orcish_administration = {
 
     
     #Negatives
-    improve_relation_modifier = -0.25    #-1 A / theyre orcs
-    
-    development_cost = 0.1                #-1 S / orcs don't build cities of their own, instead relying on those left behind by others
+    improve_relation_modifier = -0.25    #-1 A / theyre orcs #removed dev cost malus submod change
     
     spy_offence = -0.2                    #-2 D / orcs do not like schemes
     
