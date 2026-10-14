@@ -154,3 +154,11 @@
  extra_colonial_title:0 "Funds for Colonial Efforts"
  extra_colonial_desc:0 "Go forth and prosper."
  
+ estate_burghers_lizardfolk_architectural_renaissance:0 "Architectural Renaissance"
+ estate_burghers_lizardfolk_architectural_renaissance_gt:0 "Reduce the Development Cost caused by Terrain type of every owned §YJungle§! province by §G33.3%§!, and every owned §YMarsh§! province by §G25.0%§!."
+ estate_burghers_lizardfolk_architectural_renaissance_rt:0 "Remove the Development Cost Reduction of every owned §YJungle§! and §YMarsh§! province."
+ estate_burghers_lizardfolk_architectural_renaissance_desc:0 "As we begin to recover from our millenia of decline, our merchant class are reviving lost schools of architecture from previous empires to rebuild the decayed infrastructure in the jungles and marshes of Taneyas. We should take advantage of this before the current age ends, and our renaissance with it."
+ estate_burghers_lizardfolk_architectural_renaissance_jungle:0 "Revitalized Construction"
+ desc_estate_burghers_lizardfolk_architectural_renaissance_jungle:0 "Our architectural renaissance is improving our ability to develop the jungles of Taneyas."
+ estate_burghers_lizardfolk_architectural_renaissance_marsh:0 "Revitalized Construction"
+ desc_estate_burghers_lizardfolk_architectural_renaissance_marsh:0 "Our architectural renaissance is improving our ability to develop the marshes of Taneyas."

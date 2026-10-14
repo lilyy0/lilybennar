@@ -1,0 +1,9 @@
+# SUBMOD
+
+estate_burghers_lizardfolk_architectural_renaissance_jungle = {
+	local_development_cost = -0.115
+}
+
+estate_burghers_lizardfolk_architectural_renaissance_marsh = {
+	local_development_cost = -0.0625
+}

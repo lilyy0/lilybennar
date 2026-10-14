@@ -20261,3 +20261,82 @@ estate_church_landslide_crusaders= {
 	}
 }
 
+# SUBMOD, age of monsters terrain dev cost offset for lizardfolk
+estate_burghers_lizardfolk_architectural_renaissance = {
+	icon = privilege_dev_cost_forest
+	max_absolutism = 0
+	influence = 0
+	loyalty = 0
+	is_valid = {
+		culture_is_lizardfolk = yes
+		current_age = age_of_discovery
+	}
+	can_select = {
+		any_owned_province = {
+			OR = {
+				has_terrain = jungle
+				has_terrain = marsh
+			}
+		}
+	}
+	on_granted = {
+		custom_tooltip = estate_burghers_lizardfolk_architectural_renaissance_gt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_terrain = jungle
+				}
+				add_province_modifier = {
+					name = estate_burghers_lizardfolk_architectural_renaissance_jungle
+					duration = -1
+				}
+			}
+			every_owned_province = {
+				limit = {
+					has_terrain = marsh
+				}
+				add_province_modifier = {
+					name = estate_burghers_lizardfolk_architectural_renaissance_marsh
+					duration = -1
+				}
+			}		
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_burghers_lizardfolk_architectural_renaissance_rt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = estate_burghers_lizardfolk_architectural_renaissance_jungle
+						has_province_modifier = estate_burghers_lizardfolk_architectural_renaissance_marsh
+					}
+				}
+				remove_province_modifier = estate_burghers_lizardfolk_architectural_renaissance_jungle
+				remove_province_modifier = estate_burghers_lizardfolk_architectural_renaissance_marsh
+			}
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		burghers_privilege_slots = 1
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 2
+			num_of_owned_provinces_with = {
+				OR = {
+					has_terrain = jungle
+					has_terrain = marsh
+				}
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}

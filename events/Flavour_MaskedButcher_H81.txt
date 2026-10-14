@@ -2518,7 +2518,8 @@ country_event = { #fired for unlucky victims of the blood moon, seems to work fi
 
 	option = {
 		name = flavour_maskedbutcher.110.a
-		add_stability = -1
+		# add_stability = -1 # SUBMOD, replaced with add_prestige = 1 for balance
+		add_prestige = -1
 	}
 }
 

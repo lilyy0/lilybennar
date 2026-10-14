@@ -410,5 +410,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3337;3335;sea;3604;-1;-1;-1;-1;Titanoflora Wetlands
 3335;3336;sea;3604;-1;-1;-1;-1;Titanoflora Wetlands
 3329;3347;sea;3608;-1;-1;-1;-1;Titanoflora Wetlands
+5818;5840;sea;3078;-1;-1;-1;-1;SUBMOD to connect fahv to mainland
 
 -1;-1;;-1;-1;-1;-1;-1;-1;
